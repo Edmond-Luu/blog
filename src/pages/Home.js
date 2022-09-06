@@ -8,6 +8,8 @@ import { Link } from 'react-router-dom';
 
 import heroImg from "../images/heroImg.svg";
 
+import Typed from "react-typed";
+
 export default function Home() {
     SectionTitle("Edmond Luu - Blog Website")
     return (
@@ -18,14 +20,28 @@ export default function Home() {
             /> */}
             <div className="heroSection">
                 <div className="heroLeft">
-                    <h3 className="heroTitle">Welcome to my blog website!</h3>
-                    <div className="heroCaption">Thank you for visiting my brand new website powered by React! There is a lot of information here about me including a <Link to="/about">short autobiography</Link>, <Link to="/projects">my current projects in web development</Link>, a <Link to="/siteinfo">shortlist of features and functions of this website</Link>, <Link to="/contact">my contact information</Link>, and a <Link to="/funfacts">fun page with facts about myself</Link>. Please enjoy your stay here!</div>
+                    <h3 className="heroTitle">
+                    <Typed
+                        strings={[
+                            "Hello, welcome!",
+                            "Hola, bienvenidos!",
+                            "Olá, bem-vindo!",
+                            "你好，歡迎光臨！",
+                            "안녕하세요, 황영합니다!",
+                            "!سلام، خوش آمدید"
+                        ]}
+                        typeSpeed={100}
+                        backSpeed={75}
+                        loop
+                    />
+                    </h3>
+                    <div className="heroCaption">Thank you for visiting my brand new website powered by React! There is a lot of information here about me including a <Link to="/blog/about">short autobiography</Link>, <Link to="/blog/projects">my current projects in web development</Link>, a <Link to="/blog//blogsiteinfo">shortlist of features and functions of this website</Link>, <Link to="/blog/contact">my contact information</Link>, and a <Link to="/blog/funfacts">fun page with facts about myself</Link>. Please enjoy your stay here!</div>
 
                     <Link to="/projects" className="heroButton">
                         See My Works
                     </Link>
                 </div>
-                    <object className="heroImg" data={heroImg} />
+                <object className="heroImg" data={heroImg} />
             </div>
 
             <Container>
