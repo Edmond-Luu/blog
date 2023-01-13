@@ -6,6 +6,11 @@ import BootstrapCarousel from '../bootstrapElements/BootstrapCarousel'
 import Container from 'react-bootstrap/Container'
 import { Link } from 'react-router-dom'
 
+import aboutImg1 from "../images/aboutImg1.jpg"
+import aboutImg2 from "../images/aboutImg2.jpg"
+import aboutImg3 from "../images/aboutImg3.jpg"
+import aboutImg4 from "../images/aboutImg4.jpg"
+
 
 export default function About() {
   SectionTitle("Edmond Luu - About")
@@ -13,7 +18,7 @@ export default function About() {
     <section className="page">
 
       <BootstrapCarousel
-        images={["../images/aboutImg1.jpg", "../images/aboutImg2.jpg", "../images/aboutImg3.jpg", "../images/aboutImg4.jpg"]}
+        images={[aboutImg1, aboutImg2, aboutImg3, aboutImg4]}
       />
 
       <Container>

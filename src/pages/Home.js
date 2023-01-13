@@ -23,7 +23,7 @@ export default function Home() {
                         See My Works
                     </Link>
                 </div>
-                    <object className="heroImg" data="images/heroImg.svg" />
+                    {/* <object className="heroImg" data="images/heroImg.svg" /> */}
             </div>
 
             <Container>

@@ -20,12 +20,12 @@ function App() {
       <ScrollToTop />
       <Navi />
       <Routes>
-        <Route path="/" element={<Home />}></Route>
-        <Route path="/about" element={<About />}></Route>
-        <Route path="/projects" element={<Projects />}></Route>
-        <Route path="/siteinfo" element={<SiteInfo />}></Route>
-        <Route path="/contact" element={<Contact />}></Route>
-        <Route path="/funfacts" element={<FunFacts />}></Route>
+        <Route path="/blog" element={<Home />}></Route>
+        <Route path="/blog/about" element={<About />}></Route>
+        <Route path="/blog/projects" element={<Projects />}></Route>
+        <Route path="/blog/siteinfo" element={<SiteInfo />}></Route>
+        <Route path="/blog/contact" element={<Contact />}></Route>
+        <Route path="/blog/funfacts" element={<FunFacts />}></Route>
       </Routes>
       <Footer />
     </div>

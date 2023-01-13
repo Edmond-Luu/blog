@@ -4,26 +4,26 @@ import { Link, useResolvedPath, useMatch } from 'react-router-dom'
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
+import logo from "./images/logo.png"
+
 
 export default function Navi() {
     return (
-
-
         <Navbar bg="light" expand="xl" sticky="top" collapseOnSelect className="nav">
             <div className="navLogoAndTitle">
-                <Link to="/"><img src="./images/logo.png" className="navLogo" alt="Edmond Luu Logo" /></Link>
-                <Navbar.Brand as={Link} to="/"><h1 className="navTitle">Edmond Luu</h1></Navbar.Brand>
+                <Link to="/blog"><img src={logo} className="navLogo" alt="Edmond Luu Logo" /></Link>
+                <Navbar.Brand as={Link} to="/blog"><h1 className="navTitle">Edmond Luu</h1></Navbar.Brand>
             </div>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse>
                 <div className="navItems">
                     <Nav>
-                        <Nav.Link as={CustomLink} href="#" to="/">Home</Nav.Link>
-                        <Nav.Link as={CustomLink} href="#" to="/about">About</Nav.Link>
-                        <Nav.Link as={CustomLink} href="#" to="/projects">Projects</Nav.Link>
-                        <Nav.Link as={CustomLink} href="#" to="/siteinfo">Site Info</Nav.Link>
-                        <Nav.Link as={CustomLink} href="#" to="/contact">Contact</Nav.Link>
-                        <Nav.Link as={CustomLink} href="#" to="/funfacts">Fun Facts</Nav.Link>
+                        <Nav.Link as={CustomLink} href="#" to="/blog">Home</Nav.Link>
+                        <Nav.Link as={CustomLink} href="#" to="/blog/about">About</Nav.Link>
+                        <Nav.Link as={CustomLink} href="#" to="/blog/projects">Projects</Nav.Link>
+                        <Nav.Link as={CustomLink} href="#" to="/blog/siteinfo">Site Info</Nav.Link>
+                        <Nav.Link as={CustomLink} href="#" to="/blog/contact">Contact</Nav.Link>
+                        <Nav.Link as={CustomLink} href="#" to="/blog/funfacts">Fun Facts</Nav.Link>
                     </Nav>
                 </div>
             </Navbar.Collapse>

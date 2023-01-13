@@ -5,12 +5,18 @@ import Container from 'react-bootstrap/Container'
 import { AboutCard, SiteInfoCard, ContactCard } from '../bootstrapElements/BootstrapCards'
 import { Link } from 'react-router-dom'
 
+import factsImg1 from "../images/factsImg1.jpg";
+import factsImg2 from "../images/factsImg2.jpg";
+import factsImg3 from "../images/factsImg3.jpg";
+import factsImg4 from "../images/factsImg4.jpg";
+import factsImg5 from "../images/factsImg5.jpg";
+
 export default function FunFacts() {
   SectionTitle("Edmond Luu - Fun Facts")
   return (
     <section className="page">
       <BootstrapCarousel
-        images={["images/factsImg1.jpg", "images/factsImg2.jpg", "images/factsImg3.jpg", "images/factsImg4.jpg", "images/factsImg5.jpg"]}
+        images={[factsImg1, factsImg2, factsImg3, factsImg4, factsImg5]}
       />
 
       <Container>

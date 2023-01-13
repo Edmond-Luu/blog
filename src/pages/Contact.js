@@ -7,12 +7,17 @@ import { AboutCard, FunFactsCard, SiteInfoCard } from '../bootstrapElements/Boot
 import Container from 'react-bootstrap/Container'
 import { Envelope, Linkedin, Github } from 'react-bootstrap-icons'
 
+
+import contactImg1 from "../images/contactImg1.jpg";
+import contactImg2 from "../images/contactImg2.jpg";
+import contactImg3 from "../images/contactImg3.jpg";
+
 export default function Contact() {
   SectionTitle("Edmond Luu - Contact")
   return (
     <section className="page">
       <BootstrapCarousel
-        images={["images/contactImg1.jpg", "images/contactImg2.jpg", "images/contactImg3.jpg"]}
+        images={[contactImg1, contactImg2, contactImg3]}
       />
       <Container>
 
