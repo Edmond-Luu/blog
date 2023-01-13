@@ -1,15 +1,40 @@
 {
   "files": {
-    "main.css": "/blog/static/css/main.09800b61.css",
-    "main.js": "/blog/static/js/main.05dc3db9.js",
-    "static/media/backgroundWallpaper.jpg": "/blog/static/media/backgroundWallpaper.4bd5df3818eba83942b0.jpg",
-    "static/media/heroBackground.jpg": "/blog/static/media/heroBackground.a26edc4e3047d3ab89dc.jpg",
+    "main.css": "/blog/static/css/main.4cef433b.css",
+    "main.js": "/blog/static/js/main.8d19754f.js",
+    "static/media/contactImg1.jpg": "/blog/static/media/contactImg1.a2be9f6b6404a680b9c9.jpg",
+    "static/media/tvSearchProject.jpg": "/blog/static/media/tvSearchProject.6b0aebdcd57fb89184f7.jpg",
+    "static/media/aboutImg1.jpg": "/blog/static/media/aboutImg1.bfe6561dfa01cd5fc160.jpg",
+    "static/media/factsImg5.jpg": "/blog/static/media/factsImg5.207dca6a224dd854bcdb.jpg",
+    "static/media/factsImg4.jpg": "/blog/static/media/factsImg4.0f55fd0688a9499849f9.jpg",
+    "static/media/factsImg2.jpg": "/blog/static/media/factsImg2.bb373424da4d6051033e.jpg",
+    "static/media/factsImg1.jpg": "/blog/static/media/factsImg1.282dcc8273572caa74e2.jpg",
+    "static/media/aboutImg2.jpg": "/blog/static/media/aboutImg2.47a711236f6d2b78ef5f.jpg",
+    "static/media/cardContact.jpg": "/blog/static/media/cardContact.58d718a5630e23e8b561.jpg",
+    "static/media/cardProjects.jpg": "/blog/static/media/cardProjects.d29a6bf20f7417c4090c.jpg",
+    "static/media/factsImg3.jpg": "/blog/static/media/factsImg3.7228142ab2e7977a017b.jpg",
+    "static/media/contactImg2.jpg": "/blog/static/media/contactImg2.ae151fef2ace3d89b6fb.jpg",
+    "static/media/tenziesProject.jpg": "/blog/static/media/tenziesProject.c61d1c82fde26a785fe0.jpg",
+    "static/media/todoProject.jpg": "/blog/static/media/todoProject.6baec583c06a78c71e77.jpg",
+    "static/media/aboutImg3.jpg": "/blog/static/media/aboutImg3.f3fc2300cfa0d5b1f039.jpg",
+    "static/media/contactImg3.jpg": "/blog/static/media/contactImg3.04eaa036f6ee148ecf1f.jpg",
+    "static/media/measurementProject.jpg": "/blog/static/media/measurementProject.700ee5626a6f546bc3a3.jpg",
+    "static/media/temperatureProject.jpg": "/blog/static/media/temperatureProject.2882ce14453bf7a183e5.jpg",
+    "static/media/dadJokeProject.jpg": "/blog/static/media/dadJokeProject.3ba4cadad1e4fae57eb8.jpg",
+    "static/media/translatorProject.jpg": "/blog/static/media/translatorProject.22ce772aa00f9d5d88d3.jpg",
+    "static/media/currencyProject.jpg": "/blog/static/media/currencyProject.136490b55d18fdb07136.jpg",
+    "static/media/cardAbout.jpg": "/blog/static/media/cardAbout.ca3a629eca7df15ee6f2.jpg",
+    "static/media/cardFacts.jpg": "/blog/static/media/cardFacts.1a54004c3abf453667ad.jpg",
+    "static/media/cardInfo.jpg": "/blog/static/media/cardInfo.15fbcc927af5ff36578d.jpg",
+    "static/media/aboutImg4.jpg": "/blog/static/media/aboutImg4.c292b0528e418c4a3056.jpg",
+    "static/media/heroImg.svg": "/blog/static/media/heroImg.96fd76af7ed1de518fad66540b53cfb4.svg",
+    "static/media/logo.png": "/blog/static/media/logo.c6b62d4d9bd2c364e82f.png",
     "index.html": "/blog/index.html",
-    "main.09800b61.css.map": "/blog/static/css/main.09800b61.css.map",
-    "main.05dc3db9.js.map": "/blog/static/js/main.05dc3db9.js.map"
+    "main.4cef433b.css.map": "/blog/static/css/main.4cef433b.css.map",
+    "main.8d19754f.js.map": "/blog/static/js/main.8d19754f.js.map"
   },
   "entrypoints": [
-    "static/css/main.09800b61.css",
-    "static/js/main.05dc3db9.js"
+    "static/css/main.4cef433b.css",
+    "static/js/main.8d19754f.js"
   ]
 }
