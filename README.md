@@ -1,4 +1,4 @@
-# My Portfolio Website
+# My Blog Website
 
 Click [here](https://edmond-luu.github.io/blog) or on the image below to visit the website!
 
@@ -15,7 +15,7 @@ This is an updated version of my [original website](https://edmond-luu.github.io
 * All repeated elements of this page such as the image carousel and the accordion (from React-Bootstrap) are all reused but with different parameters. In other words, the markup and the code for each element only needs to be written once as a function and to change the contents in accordance with each section, the same function with new parameters are simply called. In the previous website, there was a lot of copy and pasting from other parts of the website for the same elements.
 * A feature that I added which would significantly improve the user experience is that whenever the user changes the section, the website would automatically scroll back to the top in a smooth animation. This feature is not included in React-Router since everytime the user visits a new section, the website would remain in the same scroll position as before.
 
-My portfolio website is also fully responsive, meaning that it will automatically adjust itself based on screen size. For example, on smaller screen sizes, the navigation bar on top compresses into a navigation toggle represented by the square button with three horizontal bars. The contents of the page would shrink down accordingly to save space while all font sizes remain the same. Then, the contents of the footer at the bottom rearrange themselves to maximize space within a smaller screen size.
+My blog website is also fully responsive, meaning that it will automatically adjust itself based on screen size. For example, on smaller screen sizes, the navigation bar on top compresses into a navigation toggle represented by the square button with three horizontal bars. The contents of the page would shrink down accordingly to save space while all font sizes remain the same. Then, the contents of the footer at the bottom rearrange themselves to maximize space within a smaller screen size.
 
 <div>
  <img src="https://user-images.githubusercontent.com/26613209/189459401-f2d0d631-974d-4139-bb83-c1e985ef6ad2.png" width=400/>
