@@ -3,10 +3,16 @@ import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
 import { Link } from 'react-router-dom'
 
+import cardFacts from "../images/cardFacts.jpg"
+import cardInfo from "../images/cardInfo.jpg"
+import cardContact from "../images/cardContact.jpg"
+import cardAbout from "../images/cardAbout.jpg"
+import cardProjects from "../images/cardProjects.jpg"
+
 export function FunFactsCard() {
     return (
         <Card style={{ width: '18rem' }} id="card">
-            <Link to="/blog/funfacts"><Card.Img variant="top" src="images/cardFacts.jpg" /></Link>
+            <Link to="/blog/funfacts"><Card.Img variant="top" src={cardFacts} /></Link>
             <Card.Body>
                 <Card.Title id="cardTitle">Fun Facts</Card.Title>
                 <Card.Text id="cardText">Learn more about me beyond my career goals and my aspirations in this fun and
@@ -23,7 +29,7 @@ export function FunFactsCard() {
 export function SiteInfoCard() {
     return (
         <Card style={{ width: '18rem' }} id="card">
-            <Link to="/blog/siteinfo"><Card.Img variant="top" src="images/cardInfo.jpg" /></Link>
+            <Link to="/blog/siteinfo"><Card.Img variant="top" src={cardInfo} /></Link>
             <Card.Body>
                 <Card.Title id="cardTitle">Website Information</Card.Title>
                 <Card.Text id="cardText">Learn more about the features of this website including the subtle
@@ -40,7 +46,7 @@ export function SiteInfoCard() {
 export function ContactCard() {
     return (
         <Card style={{ width: '18rem' }} id="card">
-            <Link to="/blog/contact"><Card.Img variant="top" src="images/cardContact.jpg" /></Link>
+            <Link to="/blog/contact"><Card.Img variant="top" src={cardContact} /></Link>
             <Card.Body>
                 <Card.Title id="cardTitle">Contact Me</Card.Title>
                 <Card.Text id="cardText">I'm interested getting in touch and networking with you through email and/or LinkedIn!
@@ -56,7 +62,7 @@ export function ContactCard() {
 export function AboutCard() {
     return (
         <Card style={{ width: '18rem' }} id="card">
-            <Link to="/blog/about"><Card.Img variant="top" src="images/cardAbout.jpg" /></Link>
+            <Link to="/blog/about"><Card.Img variant="top" src={cardAbout} /></Link>
             <Card.Body>
                 <Card.Title id="cardTitle">About Me</Card.Title>
                 <Card.Text id="cardText">Learn more about me and my goals as you read through my short autobiography.
@@ -72,7 +78,7 @@ export function AboutCard() {
 export function ProjectsCard() {
     return (
         <Card style={{ width: '18rem' }} id="card">
-            <Link to="/blog/projects"><Card.Img variant="top" src="images/cardProjects.jpg" /></Link>
+            <Link to="/blog/projects"><Card.Img variant="top" src={cardProjects} /></Link>
             <Card.Body>
                 <Card.Title id="cardTitle">My Projects</Card.Title>
                 <Card.Text id="cardText">Check out some cool web development projects I am working on!

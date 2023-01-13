@@ -6,6 +6,8 @@ import BootstrapCarousel from '../bootstrapElements/BootstrapCarousel';
 import Container from 'react-bootstrap/Container';
 import { Link } from 'react-router-dom';
 
+import heroImg from "../images/heroImg.svg";
+
 export default function Home() {
     SectionTitle("Edmond Luu - Blog Website")
     return (
@@ -23,7 +25,7 @@ export default function Home() {
                         See My Works
                     </Link>
                 </div>
-                    {/* <object className="heroImg" data="images/heroImg.svg" /> */}
+                    <object className="heroImg" data={heroImg} />
             </div>
 
             <Container>
