@@ -23,14 +23,16 @@ export default function Home() {
                     <h3 className="heroTitle">
                     <Typed
                         strings={[
-                            "Hello, welcome!",
-                            "Hola, bienvenidos!",
-                            "Olá, bem-vindo!",
-                            "你好，歡迎光臨！",
-                            "안녕하세요, 황영합니다!",
-                            "!سلام، خوش آمدید",
-                            "مهسا امینی#",
-                            "زن زنذگی آزادی ✌️"
+                            // "Hello, welcome!",
+                            // "Hola, bienvenidos!",
+                            // "Olá, bem-vindo!",
+                            // "你好，歡迎光臨！",
+                            // "안녕하세요, 황영합니다!",
+                            // "!سلام، خوش آمدید",
+
+                            "Hello, welcome to my blog page!",
+                            "Here, there are a lot of cool stuff",
+                            "Like fun facts, music suggestions, and just what's on my mind!"
                         ]}
                         typeSpeed={100}
                         backSpeed={75}
