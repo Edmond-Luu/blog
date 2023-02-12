@@ -23,9 +23,9 @@ export default function About() {
 
       <Container>
         <h2 className="pageTitle">About</h2>
-        <p>Hello there! My name is Edmond Luu and I am an aspiring Web Developer from San Jose, CA, the capital of Silicon Valley! I graduated from UC Berkeley with a degree in Environmental Economics and Policy. I most recently worked in the accounting field where I was a bookkeeper for small businesses. I was helping my clients manage their finances and their accounts as well as providing guidance to them through financial reports.</p>
+        <p>Hello there! My name is Edmond Luu and I am a developer from San Jose, CA, the capital of Silicon Valley! I graduated from UC Berkeley with a degree in Environmental Economics and Policy. I most recently worked in the accounting field where I was a bookkeeper for small businesses. I was helping my clients manage their finances and their accounts as well as providing guidance to them through financial reports.</p>
 
-        <p>I am looking for a career change towards web development because this area is a right fit for me due to my craftsman personality. I have always enjoyed building things and continuing to improve upon. Therefore, I am looking to start my career in computer science as a web developer as I find it very gratifying to create websites and applications while constantly adding more features and making them more user-friendly.</p>
+        <p>I switched fields and got into development because it is a much better fit for me due to my craftsman personality. I have always enjoyed building things and continuing to improve upon. I find it very gratifying to code and write software as it allows me to solve technical problems by thinking outside of the box.</p>
 
         <p>I have am a resourceful and self-reliant learner who is able to swiftly learn and apply anything on my own whether it is new software, technologies, skills, methodologies, and even <Link to="/funfacts">foreign languages</Link>. While web development is not the easiest subject for many to comprehend, my perseverance and positive attitude towards learning has allowed me to effectively and efficiently grasp the concepts on my own.</p>
 
