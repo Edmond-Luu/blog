@@ -22,7 +22,7 @@ export default function Contact() {
       <Container>
 
         <h2 className="pageTitle">Contact</h2>
-        <p className="centerText">If you have any questions or would like to stay in touch with me, please contact me via email, LinkedIn, or GitHub. The information is provided below.</p>
+        <p className="centerText">If you have any questions or would like to stay in touch with me, please contact me via email or GitHub. The information is provided below.</p>
 
         <BootstrapAccordion
           accordionContents={[
@@ -30,16 +30,8 @@ export default function Contact() {
               icon: < Envelope />,
               title: "Email",
               text: "My email address is:",
-              subtextA: "eluu@berkeley.edu",
-              urlA: "mailto:eluu@berkeley.edu"
-            },
-
-            {
-              icon: < Linkedin />,
-              title: "LinkedIn",
-              text: "My LinkedIn profile is at:",
-              subtextA: "https://linkedin.com/in/edmondluu",
-              urlA: "https://linkedin.com/in/edmondluu"
+              subtextA: "eluu472@gmail.com",
+              urlA: "mailto:eluu472@gmail.com"
             },
 
             {

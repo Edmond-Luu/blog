@@ -35,7 +35,7 @@ export default function About() {
 
         <p>To continue my journey, I also learned <a href="https://reactjs.org" target="_blank" rel="noreferrer">React</a>, a popular JavaScript library, by taking a React course by Bob Ziroll on <a href="https://scrimba.com" target="_blank" rel="noreferrer">Scrimba</a>. The <a href="https://scrimba.com/learn/learnreact" target="_blank" rel="noreferrer">course</a> has helped me develop exceptional React skills by its rigorous curriculum that features topics in JSX, components, props, and side-effects. The curriculum from that course that I've learned and applied has culminated into my many React projects such as this website. More information about my projects can be found in the <Link to="/projects">projects</Link> section.</p>
 
-        <p>I am fully commmitted to exploring, adapting, and applying new technologies as they evolve.</p>
+        <p>I am fully commmitted to exploring, adapting, and applying new technologies as they evolve. In my freetime, I enjoy solving algorithms to help keep me sharp in my progammning abilities.</p>
 
         <p className="centerText topSpacer">Here are some other sections on this website that you will also enjoy!</p>
 
